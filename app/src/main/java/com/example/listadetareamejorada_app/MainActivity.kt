@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         db = NoteDataBaseHelper(this)
         val notesList: MutableList<Note> = db.getAllNotes().toMutableList()
         notesAdapter = NotesAdapter(notesList, this)
+        notesAdapter.enableSwipe(binding.notesRecyclerView)
 
         binding.notesRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.notesRecyclerView.adapter = notesAdapter
