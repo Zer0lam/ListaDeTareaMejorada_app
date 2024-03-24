@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ListaDeTareaMejorada_app" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/puerpple</item>
+        <item name="colorPrimaryVariant">@color/puerpple</item>
+        <item name="android:statusBarColor">@color/puerpple</item>
+    </style>
+
+    <style name="Theme.ListaDeTareaMejorada_app" parent="Base.Theme.ListaDeTareaMejorada_app" />
+</resources>
