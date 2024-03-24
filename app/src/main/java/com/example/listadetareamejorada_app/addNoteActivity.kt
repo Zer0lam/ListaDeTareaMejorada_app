@@ -18,7 +18,7 @@ class addNoteActivity : AppCompatActivity() {
 
         binding.saveBtn.setOnClickListener{
             val title = binding.titleET.text.toString()
-            val content = binding.contentET.toString()
+            val content = binding.contentET.text.toString()
             val note = Note(0, title,content)
             db.insertNote(note)
             finish()

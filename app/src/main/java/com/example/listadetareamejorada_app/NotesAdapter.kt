@@ -1,6 +1,5 @@
 package com.example.listadetareamejorada_app
 
-import android.app.Notification.BigPictureStyle
 import android.content.Context
 import android.content.Intent
 import android.graphics.Canvas
